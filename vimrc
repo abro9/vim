@@ -2,6 +2,9 @@
 " Use Vim settings, rather than Vi settings (keep this first...)
 set nocompatible
 
+execute pathogen#infect()
+
+set sessionoptions-=options
 
 syntax on                       " Highlighting...
 filetype plugin indent on       " do language dependent indenting
